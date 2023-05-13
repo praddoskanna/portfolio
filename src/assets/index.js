@@ -3,7 +3,7 @@ import logo2 from "./logo2.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
+import web from "./web23.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -21,17 +21,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import graphql from "./tech/graphql.png";
+import solidity from "./tech/solidity.png";
+import python from "./tech/python.png"
+import etherjs from "./tech/etherjs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import wipro from "./company/wipro.png";
+import amepos from "./company/amepos.png";
+import crsquare from "./company/crsquare.png";
+// import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import avatar from "./avatar.png"
+
 export {
+  avatar,
   logo,
   backend,
   creator,
@@ -53,12 +60,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  graphql,
+  solidity,
+  python,
+  etherjs,
+  wipro,
+  amepos,
+  crsquare,
   carrent,
   jobit,
   tripguide,
-  logo2
+  logo2,
 };

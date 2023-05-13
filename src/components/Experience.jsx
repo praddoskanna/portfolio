@@ -26,8 +26,8 @@ const ExperienceCard = ({exp}) => {
     }
     >
       <div>
-        <h3 className='text-white text-[24px] text-bold' >{exp.title}</h3>
-        <p className='text-secondary text-[16px] font-semibold' style={{marigin:0}}>{exp.company_name}</p>
+        <h3 className='text-white text-[24px] text-bold font-bold' >{exp.title}</h3>
+        <p className='text-secondary text-[16px] text-bold font-bold uppercase'  style={{marigin:0}}>{exp.company_name}</p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

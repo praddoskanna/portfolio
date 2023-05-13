@@ -34,11 +34,11 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #09eae6;
+  background: linear-gradient(-90deg, #09eae6 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #09eae6 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -112,6 +112,25 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.avatar {
+  /* height: 80vh; */
+  /* background-color: white;
+  border-radius: 50%; */
+  padding: 0.5rem;
+  box-shadow: 80px 30px  var(--text-secondary);
+  transition-duration: 0.25s;
+}
+
+.avatar:hover{
+  transform: translate(80px, 30px);
+  box-shadow: none;
+  transition-duration: 0.25s;
+}
+
+.about-avatar {
+  /* padding-top: 18vh; */
 }
 
 /* canvas- styles */

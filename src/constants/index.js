@@ -15,14 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    graphql,
+    solidity,
+    python,
+    etherjs,
+    wipro,
+    amepos,
+    crsquare
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +45,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web3 Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Crypto Trader",
       icon: creator,
     },
   ];
@@ -72,21 +75,21 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Solidity",
+      icon: solidity,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Ether JS",
+      icon: etherjs,
     },
     {
       name: "Node JS",
@@ -97,76 +100,63 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Graph QL",
+      icon: graphql,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Django",
+      icon: python,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Project Engineer",
+      company_name: "Wipro Technologies",
+      icon: wipro,
+      iconBg: "#ffffff",
+      date: "July 2021 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Delivered, analyzed and resolved technical issues and participated in continuous enhancement of established development process.",
+        "Assisted in developing product features and providing specific suggestions that led to optimization of the client software.",
+        "Learned company standards of application software development, Agile, and iterative development methodologies.",
+        "Coded solutions and unit tests to deliver specific requirements for client software"
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "Ame Pos",
+      icon: amepos,
+      iconBg: "#ffffff",
+      date: "November 2022 - Present",
+      points: [
+        "Developing scalable and maintainable database schemas using technologies such as MongoDB and integrating them with backend APIs.",
+        "Creating and consuming GraphQL APIs to enable seamless communication between front-end and back-end systems, and implementing error handling and exception handling mechanisms to ensure application robustness.",
+        "Collaborating with cross-functional teams such as product managers, designers, and other developers to ensure alignment of development efforts with business goals.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Web3 Developer",
+      company_name: "CR Square Finance",
+      icon: crsquare,
+      iconBg: "#ffffff",
+      date: "December 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing decentralized applications (dApps) using blockchain technology and integrating them with front-end frameworks like React.js.",
+        "Developing and implementing GraphQL APIs to integrate blockchain applications with external services and data sources",
+        "Creating seamless user experiences by integrating wallet connectivity into application, enabling users to easily mint NFT on the blockchain.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
@@ -198,28 +188,28 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Review2Earn Platform",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "#Review2Earn platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "graphQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "web3",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://dashboard.guardian.crsquare.finance/",
     },
     {
-      name: "Job IT",
+      name: "Fundraising Platform",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -228,37 +218,37 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "graphQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://app.guardian.crsquare.finance/",
     },
     {
-      name: "Trip Guide",
+      name: "ICO Presale Application",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "django",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "web3",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ico.ozonechain.io/",
     },
   ];
   
