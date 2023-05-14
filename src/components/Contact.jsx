@@ -32,8 +32,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      process.env.REACT_APP_EMAIL_SERVICE_ID,
-      process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+      "service_n4ya18a",
+      "template_al272d7",
       {
         from_name: form.name,
         to_name: "Praddos",
@@ -41,10 +41,10 @@ const Contact = () => {
         to_email: "praddos.web3@gmail.com",
         message: form.message,
       },
-      process.env.REACT_APP_EMAIL_PUBLIC_KEY
+      "_HhAeJr0KISOdB8zJ"
       ).then(() => {
         setLoading(false);
-        alert("Thank you, I will get back to you as soon as possible.")
+        alert("Thanks for Reaching me out ✌️")
         setForm({
           name:'',
           email: '',
