@@ -15,17 +15,16 @@ import {
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     graphql,
     solidity,
     python,
     etherjs,
     wipro,
     amepos,
-    crsquare
+    crsquare,
+    review2earn,
+    fundraise,
+    ozone
   } from "../assets";
   
   export const navLinks = [
@@ -190,7 +189,7 @@ import {
     {
       name: "Review2Earn Platform",
       description:
-        "#Review2Earn platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "#Review2Earn platform that allows to users to review the projects anonymously and provide valuable feedback to founders and earn wCR2 Tokens as rewards.",
       tags: [
         {
           name: "react",
@@ -205,13 +204,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: review2earn,
       source_code_link: "https://dashboard.guardian.crsquare.finance/",
     },
     {
       name: "Fundraising Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web3 application that enables founders to fund raise and validate their product .Also Providing an Decentralized Due Diligence & Peer Review ",
       tags: [
         {
           name: "react",
@@ -226,13 +225,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: fundraise,
       source_code_link: "https://app.guardian.crsquare.finance/",
     },
     {
       name: "ICO Presale Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Presale ICO Application, which enables users to purchase OZO Tokens of Ozonechain seamlessly integrated with Coinbase e-commerce.",
       tags: [
         {
           name: "React",
@@ -247,7 +246,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ozone,
       source_code_link: "https://ico.ozonechain.io/",
     },
   ];

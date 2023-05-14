@@ -31,9 +31,9 @@ import amepos from "./company/amepos.png";
 import crsquare from "./company/crsquare.png";
 // import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fundraise from "./fundraise.png";
+import ozone from "./ozone.png";
+import review2earn from "./review2earn.png";
 
 import avatar from "./avatar.png"
 
@@ -67,8 +67,8 @@ export {
   wipro,
   amepos,
   crsquare,
-  carrent,
-  jobit,
-  tripguide,
+  review2earn,
+  ozone,
+  fundraise,
   logo2,
 };
