@@ -103,7 +103,7 @@ const Contact = () => {
               />
             <div className='flex justify-between items-center'>
                   <div className='sm:grid-cols-12'>
-                      <button type='submit' className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> 
+                      <button type='submit' className='send bg-[#09eae6] py-3 px-8 outline-none w-fit text-black font-bold shadow-md shadow-primary rounded-xl'> 
                       {loading ? "Sending ..." : 
                       <div className='flex ' style={{alignItems:"center"}}>
                       <span >Send &nbsp;</span><BsFillSendFill style={{alignItems:"center"}}/>
