@@ -8,7 +8,9 @@ import { EarthCanvas } from './canvas';
 
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-
+import {FaTelegram} from "react-icons/fa"
+import {AiFillLinkedin,AiFillTwitterCircle} from "react-icons/ai"
+import {BsFillSendFill} from "react-icons/bs"
 
 const Contact = () => {
   
@@ -72,36 +74,54 @@ const Contact = () => {
             className='mt-12 flex flex-col gap-8'
             >
               <label className='flex flex-col' >
-                <span className='text-white font-medium mb-4'>Your Name</span>
+                <span className='text-white font-medium mb-4'>Your Name <span style={{color:"cyan"}}>*</span></span>
               </label>
               <input type="text" 
                   name="name" value={form.name}
                   onChange={handleChange}
+                  required
                   placeholder="What's your name ?"  
                   className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
               <label className='flex flex-col' >
-                <span className='text-white font-medium mb-4'>Your Email</span>
+                <span className='text-white font-medium mb-4'>Your Email <span style={{color:"cyan"}}>*</span></span>
               </label>
-              <input type="email" 
+              <input type="email"  required
                   name="email" value={form.email}
                   onChange={handleChange}
                   placeholder="What's your email ?"  
                   className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-              />
+              /> 
               <label className='flex flex-col' >
-                <span className='text-white font-medium mb-4'>Your Message</span>
+                <span className='text-white font-medium mb-4'>Your Message <span style={{color:"cyan"}}>*</span></span>
               </label>
-              <textarea rows="7"
+              <textarea rows="7" required
                   name="message" value={form.message}
                   onChange={handleChange}
                   placeholder="What do you want to say ?"  
                   className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
-
-            <button type='submit' className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> 
-            {loading ? "Sending ..." : "Send"}
-            </button>
+            <div className='flex justify-between items-center'>
+                  <div className='sm:grid-cols-12'>
+                      <button type='submit' className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'> 
+                      {loading ? "Sending ..." : 
+                      <div className='flex ' style={{alignItems:"center"}}>
+                      <span >Send &nbsp;</span><BsFillSendFill style={{alignItems:"center"}}/>
+                      </div>}
+                      </button>
+                  </div>
+                  <div className="icons ">
+                      <a href="https://www.linkedin.com/in/praddoskanna/" target="_blank">
+                      <AiFillLinkedin className="icon" style={{borderRadius:"20px"}}/>
+                      </a>
+                      <a href="https://twitter.com/Pradosh28" target="_blank">
+                      <AiFillTwitterCircle className="icon" />
+                      </a>
+                      <a href="https://t.me/Pradosh28" target="_blank">
+                      <FaTelegram className="icon" />
+                      </a>
+                  </div>
+          </div>
         </form>
       </motion.div>
 
