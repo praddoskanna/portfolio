@@ -25,7 +25,9 @@ import {
     review2earn,
     fundraise,
     ozone,
-    sarma
+    sarma,
+    praveen,
+    elango
   } from "../assets";
   
   export const navLinks = [
@@ -174,7 +176,7 @@ import {
       name: "Praveen S",
       designation: "BA",
       company: "AMEPAY Pvt Ltd",
-      image: "https://media.licdn.com/dms/image/C5603AQFQRiX_YArEGA/profile-displayphoto-shrink_800_800/0/1633003777560?e=1689811200&v=beta&t=xNX5Wd7Q76KdaKb3oqPqmv7driKTTkhCU2D2sh6tWaY",
+      image: praveen,
       social:"https://www.linkedin.com/in/praveen-s-9b7b7016/"
     },
     {
@@ -183,7 +185,7 @@ import {
       name: "Elangovan Gopal",
       designation: "Founder",
       company: "iLai Labs", 
-      image: "https://media.licdn.com/dms/image/D5603AQFDgLciuuayQg/profile-displayphoto-shrink_400_400/0/1668956037769?e=1689811200&v=beta&t=pNHK5IWvQccW9A97YfbB7QRAzAsOOrNhR6cY3k7SBEk",
+      image: elango,
       social:"https://www.linkedin.com/in/elangovan-gopal/"
     },
   ];
