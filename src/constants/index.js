@@ -24,7 +24,8 @@ import {
     crsquare,
     review2earn,
     fundraise,
-    ozone
+    ozone,
+    sarma
   } from "../assets";
   
   export const navLinks = [
@@ -132,7 +133,7 @@ import {
     },
     {
       title: "Full Stack Developer",
-      company_name: "Ame Pos",
+      company_name: "AMEPAY Pvt Ltd",
       icon: amepos,
       iconBg: "#ffffff",
       date: "November 2022 - Present",
@@ -161,27 +162,29 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Working with Praddos, our full stack web3 developer, was a game changer. His expertise in blockchain and web development helped us build a top-notch platform. Their communication and problem-solving skills made the process smooth and enjoyable.",
+      name: "Yasaswy Sarma Veluri",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "CR Square Finance",
+      image: sarma,
+      social:"https://www.linkedin.com/in/vsy38/"
+    },
+    {
+      testimonial:"Praddos is a highly skilled full stack and blockchain developer with a deep understanding of both the front-end and back-end of web development. He is also a highly motivated and dedicated individual who is willing to go the extra mile to get the job done, and he's always looking for ways to improve his skills and knowledge. A team player and is always willing to help out his colleagues.",
+      name: "Praveen S",
+      designation: "BA",
+      company: "AMEPAY Pvt Ltd",
+      image: "https://media.licdn.com/dms/image/C5603AQFQRiX_YArEGA/profile-displayphoto-shrink_800_800/0/1633003777560?e=1689811200&v=beta&t=xNX5Wd7Q76KdaKb3oqPqmv7driKTTkhCU2D2sh6tWaY",
+      social:"https://www.linkedin.com/in/praveen-s-9b7b7016/"
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "We were incredibly lucky to have Praddos on our team. His exceptional work ethic and positive attitude made him an invaluable asset to our project.",
+      name: "Elangovan Gopal",
+      designation: "Founder",
+      company: "iLai Labs", 
+      image: "https://media.licdn.com/dms/image/D5603AQFDgLciuuayQg/profile-displayphoto-shrink_400_400/0/1668956037769?e=1689811200&v=beta&t=pNHK5IWvQccW9A97YfbB7QRAzAsOOrNhR6cY3k7SBEk",
+      social:"https://www.linkedin.com/in/elangovan-gopal/"
     },
   ];
   

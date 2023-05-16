@@ -36,6 +36,7 @@ import ozone from "./ozone.png";
 import review2earn from "./review2earn.png";
 
 import avatar from "./avatar.png"
+import sarma from "./sarma.jpg"
 
 export {
   avatar,
@@ -71,4 +72,5 @@ export {
   ozone,
   fundraise,
   logo2,
+  sarma
 };
