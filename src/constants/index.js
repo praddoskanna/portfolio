@@ -162,7 +162,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Working with Praddos, our full stack web3 developer, was a game changer. His expertise in blockchain and web development helped us build a top-notch platform. Their communication and problem-solving skills made the process smooth and enjoyable.",
+      "Praddos Kanna has done amazing work for us. He is great at creating things for our users to see and use on our product. He's also really good at working with blockchain technology, which is a big help. Praddos is more than just good at his job. He is also a great teammate. He's always ready to help others and share what he knows. We're really lucky to have someone as dedicated and talented as Praddos on our team.",   
       name: "Yasaswy Sarma Veluri",
       designation: "CFO",
       company: "CR Square Finance",
@@ -179,7 +179,7 @@ import {
     },
     {
       testimonial:
-        "We were incredibly lucky to have Praddos on our team. His exceptional work ethic and positive attitude made him an invaluable asset to our project.",
+        "Working with Praddos, our full stack web3 developer, was a game changer. His expertise in blockchain and web development helped us build a top-notch platform. Their communication and problem-solving skills made the process smooth and enjoyable.",
       name: "Elangovan Gopal",
       designation: "Founder",
       company: "iLai Labs", 
