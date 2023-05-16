@@ -166,7 +166,7 @@ import {
       testimonial:
       "Praddos Kanna has done amazing work for us. He is great at creating things for our users to see and use on our product. He's also really good at working with blockchain technology, which is a big help. Praddos is more than just good at his job. He is also a great teammate. He's always ready to help others and share what he knows. We're really lucky to have someone as dedicated and talented as Praddos on our team.",   
       name: "Yasaswy Sarma Veluri",
-      designation: "CFO",
+      designation: "Co-Founder",
       company: "CR Square Finance",
       image: sarma,
       social:"https://www.linkedin.com/in/vsy38/"
@@ -174,7 +174,7 @@ import {
     {
       testimonial:"Praddos is a highly skilled full stack and blockchain developer with a deep understanding of both the front-end and back-end of web development. He is also a highly motivated and dedicated individual who is willing to go the extra mile to get the job done, and he's always looking for ways to improve his skills and knowledge. A team player and is always willing to help out his colleagues.",
       name: "Praveen S",
-      designation: "BA",
+      designation: "Business Analyst",
       company: "AMEPAY Pvt Ltd",
       image: praveen,
       social:"https://www.linkedin.com/in/praveen-s-9b7b7016/"
