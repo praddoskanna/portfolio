@@ -9,6 +9,8 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import {FaTelegram} from "react-icons/fa"
+import { RiWhatsappFill } from "react-icons/ri";
+
 import {AiFillLinkedin,AiFillTwitterCircle} from "react-icons/ai"
 import {BsFillSendFill} from "react-icons/bs"
 
@@ -119,6 +121,9 @@ const Contact = () => {
                       </a>
                       <a href="https://t.me/Pradosh28" target="_blank">
                       <FaTelegram className="icon" />
+                      </a>
+                      <a href="https://wa.me/919585279768?text=Hi%20" target="_blank">
+                      <RiWhatsappFill className="icon" />
                       </a>
                   </div>
           </div>
