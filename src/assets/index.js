@@ -40,6 +40,16 @@ import sarma from "./sarma.jpg"
 import elango from "./elango.jpg"
 import praveen from "./praveen.jpg"
 
+import vesting from "./vesting.png"
+import babyozo from "./babyozo.png"
+import superstarpunks from "./superstarpunks.png"
+import bot from "./bot.png"
+import saras from "./saras.png" 
+import setmybiz from "./setmybiz.png"
+import colacasino from './colacasino.png'
+import usdo from "./usdo.png"
+
+
 export {
   avatar,
   logo,
@@ -76,5 +86,13 @@ export {
   logo2,
   sarma,
   elango,
-  praveen
+  praveen,
+  vesting,
+  babyozo,
+  superstarpunks,
+  bot,
+  saras,
+  setmybiz,
+  colacasino,
+  usdo
 };
